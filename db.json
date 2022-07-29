@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "priyadharshini",
+      "email": "priya@gmail.com",
+      "password": "123456",
+      "mobile": 8967545654,
+      "id": 1
+    },
+    {
+      "fullname": "Ramya.R",
+      "email": "ramya@gmail.com",
+      "password": "123456",
+      "mobile": 45675467554,
+      "id": 2
+    },
+    {
+      "fullname": "kayal",
+      "email": "kayal@gmail.com",
+      "password": "12345",
+      "mobile": 9087688999,
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

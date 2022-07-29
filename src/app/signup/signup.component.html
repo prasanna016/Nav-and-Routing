@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row">
+        <div class="cd-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Sign Up</h1>
+                    <h6>Register Yourself!</h6>
+                </div>
+             
+                    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                        <div class="mb-3">
+                            <label for="Fname" class="form-label">Full Name</label>
+                            <input formControlName="fullname" type="text" class="form-control" id="Fname" >
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="PhNo" class="form-label">Phone Number</label>
+                            <input  formControlName="mobile" type="number" class="form-control" id="PhNo" >
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          </div>
+                        <div class="mb-3">
+                          <label for="email1" class="form-label">Email address</label>
+                          <input  formControlName="email" type="email" class="form-control" id="email1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="Password1" class="form-label">Password</label>
+                          <input  formControlName="password" type="password" class="form-control" id="Password1">
+                        </div>
+                        <br>
+                        
+                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                        <br>
+                        <a style="color: #fff; margin-top:10px" routerLink="/join us" >Already Registered? Click to Login</a>
+                      </form>
+                    </div>
+          
+        </div>
+    </div>
+ </div>
+
